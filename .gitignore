@@ -1,7 +1,0 @@
-# exclude all build files
-
-.hugo_build.lock
-public/*
-resources/*
-assets/jsconfig.json
-themes/stack/assets/jsconfig.json
