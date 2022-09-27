@@ -1,5 +1,4 @@
-baseURL: ''
-relativeURLs: true
+baseURL: 'https://engineering-projects-society.github.io/website/'
 languageCode: en-us
 title: EPS
 theme: ananke
