@@ -1,9 +1,8 @@
 ---
 date: 2022-01-01
-description: "Sumo Bot"
-featured_image: "/images/Pope-Edouard-de-Beaumont-1844.jpg"
+title: "Sumo Bot"
 tags: ["robotics", "electronics"]
-title: "A small and powerful competition robot"
+description: "A small and powerful competition robot"
 ---
 
 PLACEHOLDER

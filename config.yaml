@@ -31,3 +31,5 @@ params:
       url: 'https://discord.gg/86eGFsVMJU'
       color: '#5865F2'
       label: ''
+  mainSections: [post, projects, members]
+  defaultImage: images/newcastle-gfe3a4765f_1920.jpg
