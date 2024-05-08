@@ -31,5 +31,13 @@ params:
       url: 'https://discord.gg/86eGFsVMJU'
       color: '#5865F2'
       label: ''
+    - name: twitter
+      url: 'https://twitter.com/ncl_eps'
+    - name: linkedin
+      url: 'https://linkedin.com/company/nclenginesoc'
+    - name: facebook
+      url: 'https://www.facebook.com/nclenginesoc'
+    - name: instagram
+      url: 'https://www.instagram.com/ncl_eps'
   mainSections: [post, projects, members]
   defaultImage: images/newcastle-gfe3a4765f_1920.jpg
