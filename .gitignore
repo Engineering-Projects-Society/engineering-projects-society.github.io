@@ -5,3 +5,4 @@ public/*
 resources/*
 assets/jsconfig.json
 themes/stack/assets/jsconfig.json
+_gen/*
