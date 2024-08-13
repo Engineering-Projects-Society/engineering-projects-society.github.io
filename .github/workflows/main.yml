@@ -34,7 +34,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          external_repository: Engineering-Projects-Society/website
+          external_repository: Engineering-Projects-Society/engineering-projects-society.github.io
           publish_dir: ./public
           #   keep_files: true
           user_name: RedNicStone
