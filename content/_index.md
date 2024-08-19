@@ -1,9 +1,9 @@
 ---
+type: miscellaneous
+layout: home
 title: "Engineering Projects Society Newcastle University"
-
-description: "A society for students interested in engineering and more"
+description: "The leading student run society for practical engineering at Newcastle University"
 cascade:
   featured_image: 'images/newcastle-gfe3a4765f_1920.jpg'
 ---
-You have stumbled a website for the ECS. We will post on updates on current projects as well as host an archive of past projects.
-At the moment this website is still a work in progress. Feel free to take a look arround!
+We are excited to welcome new members to the Engineering Project Society! Whether you're an engineering student or not, we invite you to join our team for the 2024/25 academic year. Get involved in exciting projects, expand your skills, and collaborate with like-minded people across various disciplines
