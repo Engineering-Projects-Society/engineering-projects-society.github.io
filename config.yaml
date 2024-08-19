@@ -22,7 +22,11 @@ params:
   favicon: ''
   site_logo: 'icons/eps_logo/long_text/small.png'
   site_icon: 'icons/eps_logo/transparent/medium.png'
-  custom_css: ['fonts/fontawesome/css/fontawesome.css']
+  custom_css: [
+    'fonts/fontawesome/css/fontawesome.css',
+    'fonts/fontawesome/css/solid.css',
+    'fonts/fontawesome/css/regular.css'
+  ]
   description: Engineering Project Society Newcastle
   background_color_class: bg-black
   recent_posts_number: 12

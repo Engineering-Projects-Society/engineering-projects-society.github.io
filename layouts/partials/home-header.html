@@ -13,7 +13,7 @@
   <header class="cover bg-top h-100" style="background-image: url('{{ $featured_image }}')">
     <div class="h-100 {{ .Site.Params.cover_dimming_class | default "bg-black-60" }}" style="backdrop-filter: blur(0.5rem)">
       {{ partial "site-navigation.html" .}}
-      <div class="tc-l pv4 pt3" style="height: calc(100% - 83px); padding-bottom: calc(4rem + 83px)">
+      <div class="tc-l pv4 pt3" style="height: calc(100% - 83px - 4rem); padding-bottom: calc(0rem + 83px)">
         <div class="flex flex-column justify-center w-100 h-100">
           <div class="flex flex-row justify-center w-100" style="overflow: hidden">
             {{ with .Site.Params.site_icon }}
@@ -21,7 +21,7 @@
             {{ else }}
               {{ .Site.Title }}
             {{ end }}
-            <div class="w-30 ml4 pl5 flex flex-column justify-center bw1-l bl-ns white">
+            <div class="w-30 ml4 pl5 flex flex-column justify-center bw1-l bl-ns white-90">
               <h2 class="f2-l tl mv0">EPS Newcastle</h2>
               {{ with .Params.description }}
                 <h2 class="fw1 tl">
@@ -31,6 +31,9 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="flex flex-row justify-center w-100 h3 white-90 f3">
+        <i class="fa-solid fa-chevron-down"></i>
       </div>
     </div>
   </header>
