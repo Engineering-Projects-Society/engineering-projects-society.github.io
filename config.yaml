@@ -16,13 +16,14 @@ sitemap:
   filename: sitemap.xml
 
 params:
-  date_format: '2006'
+  date_format: '2006-01'
   text_color: ''
   author: ''
   favicon: ''
   site_logo: 'icons/eps_logo/long_text/small.png'
-  site_icon: 'icons/eps_logo/transparent/large.png'
-  description: The last theme you'll ever need. Maybe.
+  site_icon: 'icons/eps_logo/transparent/medium.png'
+  custom_css: ['fonts/fontawesome/css/fontawesome.css']
+  description: Engineering Project Society Newcastle
   background_color_class: bg-black
   recent_posts_number: 12
   ananke_socials:
