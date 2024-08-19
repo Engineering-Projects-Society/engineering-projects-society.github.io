@@ -3,7 +3,6 @@ type: miscellaneous
 layout: home
 title: "Engineering Projects Society Newcastle University"
 description: "The leading student run society for practical engineering at Newcastle University"
-body_classes: h-100
 featured_image: 'images/newcastle-gfe3a4765f_1920.jpg'
 signup_image: 'images/technology-gd1e4cb237_1920.jpg'
 ---
