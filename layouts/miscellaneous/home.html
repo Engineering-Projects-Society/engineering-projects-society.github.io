@@ -91,31 +91,42 @@
       </div>
     </div>
     <div class="absolute top-0 left-0 pt6 pl6">
-      <h1 class="ma0 f-6 white">
+      <h1 class="ma0 f-6" style="color:rgb(90%,90%,90%)">
         What project will you tackle?
       </h1>
-      <div class="ma0 white pt4 pb5 lh-copy" style="font-size: 2rem">
+      <div class="ma0 pt4 pb5 lh-copy" style="font-size: 2rem; color:rgb(90%,90%,90%)">
         We are excited to welcome new members to the Engineering Project Society!<br/>
         Whether you're an engineering student or not,<br/>
         we invite you to join our team for the 2024/25 academic year.<br/>
         Get involved in exciting projects, expand your skills,<br/>
-        and collaborate with like-minded people across various disciplines<br/>
+        and collaborate with like-minded people across various disciplines.<br/>
       </div>
       <div class="w-25">
         <a class="signup-button" role="button" href="https://nusu.co.uk/activities/view-society/57" target="_blank">Sign up now on NUSU!</a>
       </div>
     </div>
   </div>
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf pv5 ph3 ph4-ns mw7">
+  <div class="mt2 mw9 center">
+    <article class="center cf pv5 ph3 ph4-ns mw9">
       <header>
         <h1 class="f1">
-          {{ .Title }}
+          Active projects
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
-        {{ .Content }}
+        <!-- {{ .Content }} -->
       </div>
+      <section class="flex flex-column justify-first mt5 flex-grow-1">
+        {{ $taxonomyObject := .Site.Taxonomies.years }}
+        {{ $weightedPages := $taxonomyObject.Get $.Site.Params.current_year }}
+        {{ range $weightedPages }}
+        <div class="relative w-100 mb4 bg-white">
+          {{ .Render "project_summary" }}
+        </div>
+        {{ end }}
+      </section>
+      {{- template "_internal/pagination.html" . -}}
     </article>
   </div>
 {{ end }}
+

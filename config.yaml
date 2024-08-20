@@ -15,7 +15,14 @@ sitemap:
   priority: 0.5
   filename: sitemap.xml
 
+taxonomies:
+  category: categories
+  year: years           # Year the project/member/group was active
+  member: members       # Relationship between members and projects or members and years
+  part: parts           # Relationship between parts and a project
+
 params:
+  current_year: '2024'
   date_format: '2006-01'
   text_color: ''
   author: ''
