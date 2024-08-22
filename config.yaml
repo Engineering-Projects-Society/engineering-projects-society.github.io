@@ -22,6 +22,7 @@ taxonomies:
   part: parts           # Relationship between parts and a project
 
 params:
+  canonicalUrl: 'epsncl.uk'
   current_year: '2024'
   date_format: '2006-01'
   text_color: ''
