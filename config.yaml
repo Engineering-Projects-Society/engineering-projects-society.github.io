@@ -6,9 +6,11 @@ resourceDir: ''
 
 DefaultContentLanguage: en
 SectionPagesMenu: main
-Paginate: 10
 googleAnalytics: ''
 enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
 
 sitemap:
   changefreq: weekly
